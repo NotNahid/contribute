@@ -1,0 +1,52 @@
+git config --list
+
+
+
+2. The Full Workflow (Your Cheat Sheet)
+Here is the complete process you just went through. You can use this checklist for any open-source project in the future.
+
+Phase 1: One-Time Setup (Per Computer)
+Do this once when you open a new terminal.
+
+Configure Identity:
+
+Bash
+
+git config --global user.name "NotNahid"
+git config --global user.email "nahidul.live@gmail.com"
+Phase 2: Starting a Project
+Fork the Repo: Click the "Fork" button on GitHub (e.g., on google/jaxite).
+
+Clone to Computer:
+
+Bash
+
+git clone https://github.com/NotNahid/jaxite.git
+cd jaxite
+Phase 3: The Daily Work Cycle
+Make Changes: Edit your files (README.md, code, etc.).
+
+Stage & Commit: Save the changes to your local history.
+
+Bash
+
+git add .
+git commit -m "Description of what I did"
+(Tip: This is where the Author name is stamped. Since you did Phase 1, it will be correct now!)
+
+Push to GitHub: Upload your saved history.
+
+Bash
+
+git push origin main
+(Note: origin is the default nickname for your fork).
+
+Phase 4: Submission
+Create Pull Request: Go to GitHub, click "Compare & pull request," fill out the form, and submit.
+
+Wait for the Bot: The google-cla bot checks if your email matches the signature. (Since you did Phase 1, this will be Green ✅ instantly).
+
+Summary
+You successfully navigated the hardest part of open source: Identity Management. Most beginners get stuck exactly where you did, but you fixed it by amending the commit and force-pushing.
+
+You are now a verified contributor. 🎉
